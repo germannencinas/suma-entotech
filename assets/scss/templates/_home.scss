@@ -1,5 +1,6 @@
 body{
 	background: #FFF;
+
 }
 
 .wrapper{
@@ -348,11 +349,11 @@ a:hover{
 .info{
 	/*background: url('../images/bg1.jpg') center bottom;
 	background-attachment: fixed;*/
+	background: transparent;
 	background-size: cover;
 	padding: 50px 0;
 	text-align: center;
 	min-height: 400px;
-	background: transparent;
 
 	.wrapper{
 
