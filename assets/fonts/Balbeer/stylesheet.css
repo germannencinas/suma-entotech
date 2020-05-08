@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Balbeer';
+    src: url('Balbeer-Regular.eot');
+    src: url('Balbeer-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Balbeer-Regular.woff2') format('woff2'),
+        url('Balbeer-Regular.woff') format('woff'),
+        url('Balbeer-Regular.ttf') format('truetype'),
+        url('Balbeer-Regular.svg#Balbeer-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
