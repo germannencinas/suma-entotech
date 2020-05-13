@@ -626,8 +626,6 @@ a:hover{
 .shop-now{
 	background: #e8e8dd;
 	position: relative;
-	padding-bottom: 50px;
-
 
 	.wrapper{
 
@@ -689,6 +687,19 @@ a:hover{
 				}
 			}
 		}
+	}
+}
+
+.shop-now-bottom{
+	background: #e8e8dd;
+	position: relative;
+	padding-bottom: 50px;
+
+	&.white{
+		background: #FFF;
+	}
+
+	.wrapper{
 
 		.shop-box{
 			text-align: center;
@@ -760,7 +771,6 @@ a:hover{
 				}
 
 			}
-
 			
 		}
 	}
@@ -1861,16 +1871,23 @@ footer{
 						color: #b1b09e;*/
 						font-size: 26px;
 						line-height: 30px;
-						margin: 18px auto 30px auto;
+						margin: 18px auto 0 auto;
 
 					}
 				}
 			}
+		}
+	}
+
+	.shop-now-bottom{
+	 	padding-top: 45px;
+
+		.wrapper{
 
 			.shop-box{
 				/*text-align: center;
 				margin-top: -30px;*/
-				margin-top: 40px;
+				margin-top: 0px;
 				clear: both;
 				overflow: hidden;
 
