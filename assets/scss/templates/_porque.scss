@@ -30,7 +30,7 @@
 
 		.bottom-txt{
 			display: block;
-			width: 600px;
+			max-width: 600px;
 			margin: 32px auto 0 auto;
 			
 			p{
@@ -329,7 +329,7 @@
 
 						&.center{
 							display: block;
-							width: 500px;
+							max-width: 500px;
 							margin: 20px auto;
 
 						}
@@ -350,6 +350,417 @@
 							width: 100%;
 							height: auto;
 
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 768px){
+
+	.why-masthead{
+		/*background: #f05a29;
+		padding: 5px 0 35px 0;
+		text-align: center;*/
+
+		.wrapper{
+
+			.cricket-icon{
+
+			}
+
+			.title{
+				/*font-family: 'League Spartan';
+				font-size: 50px;
+				color: #000;
+				text-transform: uppercase;*/
+				font-size: 38px;
+			}
+
+			.txt{
+				/*display: block;
+				max-width: 920px;
+				margin: 32px auto 0 auto;
+				font-family: 'Balbeer';
+				color: #FFF;
+				text-transform: uppercase;
+				font-size: 34px;
+				line-height: 44px;*/
+				font-size: 26px;
+				line-height: 32px;
+
+			}
+
+			.bottom-txt{
+				/*display: block;
+				width: 600px;
+				margin: 32px auto 0 auto;*/
+				margin: 28px auto 0 auto;
+				
+				p{
+					/*font-size: 15px;
+					font-family: 'Roboto Slab';
+					color: #FFF;
+					margin: 0;*/
+
+				}
+			}
+		}
+	}
+
+
+	.why-benefits{
+		/*position: relative;
+		text-align: center;*/
+
+		&::before{
+			/*content: '';
+			display: block;
+			width: 100%;
+			height: 240px;
+			background: #f05a29 url('../images/wave-border.png') center center no-repeat;
+			background-size: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;*/
+			height: 80px;
+		}
+
+		.wrapper{
+
+			.product-img{
+				/*display: block;
+				max-width: 380px;
+				height: auto;
+				margin: 0 auto 10px auto;
+				position: relative;*/
+				margin: 0 auto 10px auto;
+				padding-top: 40px;
+				
+
+				img{
+					/*width: 100%;
+					height: auto;*/
+				}
+			}
+
+			.box-txt{
+				text-align: center;
+
+				h5{
+					/*display: inline-block;
+					margin: 0 auto 30px auto;
+					font-family: 'Roboto Slab';
+					text-transform: uppercase;
+					font-size: 20px;
+					color: #000;*/
+					font-size: 18px;
+
+				}
+
+				.row{
+
+					h3{
+						/*font-family: 'Balbeer';
+						font-size: 34px;
+						color: #f05a29;
+						text-transform: uppercase;
+						text-align: right;*/
+						text-align: center;
+						font-size: 26px;
+						margin: 0 0 20px 0;
+					}
+
+					ul{
+						/*text-align: left;
+						list-style: none;
+						padding: 0;
+						margin: 0;*/
+						display: block;
+						width: 80%;
+						margin: 0 auto;
+
+						li{
+							/*font-family: 'Roboto Slab';
+							font-size: 15px;
+							color: #000;*/
+
+							&::before{
+								/*content: "\2022";
+								color: #f05a29;
+								font-weight: bold;
+								display: inline-block;
+								width: 16px;
+								margin-left: -16px;*/
+							}
+
+						}
+					}
+				}
+
+				.bottom-title{
+					/*margin-top: 90px;*/
+					margin-top: 60px;
+
+					h3{
+						/*font-family: 'League Spartan';
+						font-size: 50px;
+						color: #B1B09E;
+						text-transform: uppercase;
+						margin: 0;*/
+						font-size: 38px;
+
+					}
+				}
+			}
+		}
+	}
+
+	.why-benefits-points{
+		/*background: #E8E8DD;
+		text-align: center;
+		position: relative;
+		padding-top: 150px;
+		padding-bottom: 50px;
+		margin-top: 60px;*/
+		padding-top: 100px;
+		padding-bottom: 50px;
+
+		&::before{
+			/*content: '';
+			display: block;
+			width: 100%;
+			height: 220px;
+			background: #FFF url('../images/wave-border-gray.png') center center no-repeat;
+			background-size: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;*/
+			height: 80px;
+		}
+
+		&::after{
+			/*content: '';
+			display: block;
+			width: 100%;
+			height: 220px;
+			background: #FFF url('../images/wave-border-gray2.png') center center no-repeat;
+			background-size: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;*/
+			height: 80px;
+		}
+
+		.wrapper{
+			/*position: relative;
+			z-index: 999;*/
+			.row{
+
+				&.top{
+					/*margin-bottom: 80px;*/
+					margin-bottom: 40px;
+				}
+
+				&.second{
+					
+					.img{
+						/*width: 60%;*/
+					}
+				}
+
+				&.third{
+					/*margin-bottom: 60px;*/
+					margin-bottom: 0px;
+
+					.img{
+						/*width: 60%;
+						margin: auto 0 auto auto;
+						position: relative;
+						top: -25px;*/
+						margin: 0 auto
+
+					}
+				}
+
+				.txt{
+
+					.high{
+						/*font-family: 'Balbeer';
+						font-size: 34px;
+						color: #B1B09E;
+						text-transform: uppercase;
+						line-height: 40px;*/
+						font-size: 28px;
+						line-height: 34px;
+
+					}
+
+					h4{
+						/*text-transform: uppercase;
+						font-family: 'League Spartan';
+						font-size: 50px;
+						color: #B1B09E;*/
+						font-size: 40px;
+
+					}
+
+					h5{
+						/*background: #FFF;
+						color: #B1B09E;
+						font-family: 'Roboto Slab';
+						font-size: 20px;
+						text-transform: uppercase;
+						padding: 2px 0;*/
+						font-size: 18px;
+						display: inline-block;
+						padding: 2px 50px;
+						margin-bottom: 20px;
+
+					}
+
+					p{
+						/*font-family: 'Roboto Slab';
+						color: #000;
+						font-size: 14px;*/
+
+					}
+				}
+
+				.img{
+					/*display: block;
+					width: 90%;
+					height: auto;
+					margin: 0;*/
+					width: 80%;
+					margin: 20px auto;
+
+					&.cricket{
+						/*width: 100%;
+						position: relative;
+						top: -140px;*/
+						top: 0;
+						width: 90%;
+						margin: 0 auto;
+					}
+
+					img{
+						/*width: 100%;
+						height: auto;*/
+					}
+				}
+			}
+		}
+	}
+
+
+	.why-trends{
+		/*padding: 65px 0;
+		text-align: center;*/
+		
+		.wrapper{
+
+			.title{
+				/*text-transform: uppercase;
+				font-size: 50px;
+				font-family: 'League Spartan';
+				color: #000;*/
+				font-size: 38px;
+
+				span{
+					/*color: #f05a29;*/
+				}
+				
+			}
+
+			.trend{
+				/*margin-top: 50px;
+				border-bottom: 2px solid #c5c5c5;
+				padding-bottom: 60px;*/
+				margin-top: 40px;
+				padding-bottom: 45px;
+
+				.sub{
+
+					span{
+						/*font-family: 'Roboto Slab';
+						font-size: 20px;
+						color: #f05a29;
+						text-transform: uppercase;*/
+						font-size: 16px;
+
+					}
+
+					p{
+						/*margin: 10px 0 20px 0;
+						font-family: 'Roboto Slab';
+						font-size: 20px;
+						line-height: 24px;
+						color: #000;
+						font-weight: 700;
+						text-transform: uppercase;*/
+						font-size: 16px;
+					}
+				}
+
+				.content{
+
+					p{
+						/*font-family: 'Roboto Slab';
+						color: #000;
+						text-align: left;
+						margin: 0;*/
+						font-size: 14px;
+					}
+
+					.row{
+
+						.high{
+							/*font-family: 'Balbeer';
+							font-size: 33px;
+							color: #f05a29;
+							text-transform: uppercase;
+							margin-top: 20px;
+							text-align: center;*/
+							font-size: 26px;
+							line-height: 30px;
+							
+
+							&.top{
+								/*margin-top: 0;*/
+								margin-top: 20px;
+							}
+
+							&.center{
+								/*display: block;
+								width: 500px;
+								margin: 20px auto;*/
+
+							}
+						}
+
+						p{
+							/*font-family: 'Roboto Slab';
+							color: #000;
+							text-align: left;
+							margin: 0;*/
+
+						}
+
+						.img{
+							/*margin-top: 35px;*/
+
+							img{
+								/*width: 100%;
+								height: auto;*/
+
+							}
 						}
 					}
 				}

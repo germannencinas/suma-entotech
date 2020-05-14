@@ -534,6 +534,13 @@ a:hover{
 	text-align: center;
 	position: relative;
 
+	&.border{
+
+		&::before{
+			display: none;
+		}
+	}
+
 	&::before{
 		content: '';
 		display: block;

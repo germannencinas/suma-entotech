@@ -27,7 +27,7 @@
 
 		.bottom-txt{
 			display: block;
-			width: 800px;
+			max-width: 800px;
 			margin: 0 auto;
 
 			p{
@@ -214,7 +214,7 @@
 
 		.quote{
 			display: block;
-			width: 740px;
+			max-width: 740px;
 			margin: 0 auto;
 			text-align: center;
 			position: relative;
@@ -318,7 +318,7 @@
 
 		.big-product{
 			display: block;
-			width: 500px;
+			max-width: 500px;
 			margin: 0 auto;
 
 			img{
@@ -375,4 +375,439 @@
 	}
 }
 
+
+@media screen and (max-width: 768px){
+	
+	.about-masthead{
+		/*text-align: center;
+		padding: 45px 0;*/
+
+		.wrapper{
+
+			.title{
+				/*font-family: 'League Spartan';
+				color: #000;
+				text-transform: uppercase;
+				font-size: 50px;*/
+				font-size: 34px;
+
+			}
+
+			.high-txt{
+				/*display: block;
+				max-width: 600px;
+				margin: 40px auto 25px auto;
+				font-family: 'Balbeer';
+				color: #f05a29;
+				font-size: 34px;
+				line-height: 40px;
+				text-transform: uppercase;*/
+				font-size: 24px;
+				line-height: 30px;
+				margin: 20px auto 25px auto;
+			}
+
+			.bottom-txt{
+				/*display: block;
+				width: 800px;
+				margin: 0 auto;*/
+
+				p{
+					/*font-family: 'Roboto Slab';
+					color: #000;
+					font-size: 15px;
+					margin: 0;*/
+					font-size: 12px;
+				}
+			}
+		}
+	}
+
+
+	.about-try{
+		/*background: #f05a29;
+		padding: 70px 0 0 0;*/
+		padding: 50px 0 0 0;
+		text-align: center;
+
+		.wrapper{
+
+			.row{
+
+				.txt-box{
+
+					h5{
+						/*color: #000;
+						font-family: 'Roboto Slab';
+						font-size: 20px;
+						text-transform: uppercase;*/
+						font-size: 17px;
+
+					}
+
+					h3{
+						/*font-family: 'Roboto Slab';
+						font-size: 50px;
+						font-weight: 700;
+						color: #000;
+						line-height: 48px;*/
+						font-size: 40px;
+						line-height: 38px;
+
+						span{
+							/*display: block;
+							color: #FFF;*/
+
+						}
+					}
+
+					p{
+						/*color: #FFF;
+						font-size: 15px;
+						font-family: 'Roboto Slab';
+						line-height: 22px;
+						margin-top: 30px;*/
+						font-size: 12px;
+
+					}
+
+					.btn-d{
+						/*width: 265px;
+						text-align: center;
+						background: #000;
+						position: relative;
+						top: 30px;*/
+						top: 0;
+						margin: 5px 0 55px 0;
+
+					}
+				}
+
+				.product-img{
+					/*width: 100%;
+					height: auto;
+					margin: 0;
+					position: relative;
+					top: -40px;*/
+					width: 85%;
+					margin: 25px auto 0 auto;
+
+					img{
+						/*width: 100%;
+						height: auto;*/
+					}
+				}
+			}
+		}
+	}
+
+
+	.about-values{
+		/*background: #E8E8DD url('../images/wave-big.png') center 380px no-repeat;
+		background-size: 100%;
+		text-align: center;
+		padding: 70px 0 0 0;*/
+		background: #FFF;
+
+		.wrapper{
+
+			h2{
+				/*font-family: 'Balbeer';
+				color: #B1B09E;
+				font-size: 58px;
+				line-height: 60px;
+				text-transform: uppercase;*/
+				font-size: 44px;
+				line-height: 50px;
+			}
+
+			.value{
+				margin: 30px 0;
+
+				.img-earth{
+					/*display: block;
+					margin: 0;
+					width: 100%;
+					height: auto;*/
+					width: 85%;
+					margin: 0 auto;
+
+					&.mov{
+						display: none;
+					}
+
+					img{
+						/*width: 100%;
+						height: auto;*/
+					}
+
+				}
+
+				.txt{
+					/*position: relative;
+					top: 60px;*/
+					top: 0;
+					margin-top: 30px;
+
+					h3{
+						/*font-family: 'League Spartan';
+						color: #B1B09E;
+						font-size: 48px;
+						text-transform: uppercase;*/
+						font-size: 36px;
+					}
+
+					p{
+						/*font-family: 'Roboto Slab';
+						font-size: 15px;
+						color: #000;
+						margin: 0;*/
+						font-size: 13px;
+
+					}
+				}
+			}
+		}
+	}
+
+
+	.about-quote{
+		/*margin-top: 60px;
+		background: #E8E8DD;
+		padding: 0px 0 150px 0;
+		position: relative;*/
+		padding: 0px 0 120px 0;
+
+		&::after{
+			/*content: '';
+			display: block;
+			width: 100%;
+			height: 220px;
+			background: #FFF url('../images/wave-border-gray.png') center top no-repeat;
+			background-size: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;*/
+			height: 80px;
+		}
+
+		&::before{
+			/*content: '';
+			display: block;
+			width: 100%;
+			height: 220px;
+			background: #FFF url('../images/wave-border-gray2.png') center center no-repeat;
+			background-size: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			right: 0;*/
+			height: 80px;
+		}
+
+		.wrapper{
+
+			.img-product{
+				width: 90%;
+				/*display: block;
+				width: 100%;
+				height: auto;
+				margin: 0 auto 40px auto;
+				position: relative;
+				z-index: 9999;*/
+
+				/*img{
+					width: 100%;
+					height: auto;
+				}*/
+			}
+
+			.quote{
+				/*display: block;
+				width: 740px;
+				margin: 0 auto;
+				text-align: center;
+				position: relative;*/
+
+				h3{
+					/*font-family: 'Balbeer';
+					font-size: 34px;
+					color: #B1B09E;
+					text-transform: uppercase;*/
+					font-size: 28px;
+				}
+			}
+		}
+	}
+
+
+	.about-from{
+		/*text-align: center;
+		position: relative;
+		top: -110px;*/
+		top: -90px;
+
+		.wrapper{
+
+			.cricket{
+				/*display: block;
+				width: 350px;
+				height: auto;
+				margin: 0 auto 35px auto;
+				position: relative;*/
+				width: 70%;
+				margin: 0 auto 20px auto;
+				
+
+				img{
+					/*width: 100%;
+					height: auto;*/
+				}
+			}
+
+			h3{
+				/*font-family: 'League Spartan';
+				font-size: 50px;
+				color: #000;
+				text-transform: uppercase;*/
+				font-size: 38px;
+
+			}
+
+			h5{
+				/*font-family: 'Balbeer';
+				font-size: 33px;
+				color: #f05a29;
+				text-transform: uppercase;
+				margin: 25px 0 0 0;*/
+				font-size: 26px;
+				margin: 15px 0 0 0;
+			}
+
+			.row-content{
+				/*text-align: left;
+				margin-top: 30px;*/
+
+				 p{
+				 	/*font-family: 'Roboto Slab';
+				 	font-size: 15px;
+				 	color: #000;
+				 	line-height: 22px;
+				 	position: relative;
+				 	top: 15px;*/
+				 	font-size: 14px;
+				 	top: 0;
+				 	margin: 20px 0;
+
+				 }
+
+				 figure{
+				 	/*display: block;
+				 	width: 90%;
+				 	height: 200px;
+				 	background: #000;*/
+				 	margin: 0 auto;
+				 	width: 95%;
+
+				 	img{
+				 		/*width: 100%;
+				 		height: auto;*/
+				 	}
+
+				 }
+			}
+
+			.title-hash{
+				/*display: inline-block;
+				font-family: 'Roboto Slab';
+				font-size: 50px;
+				color: #f05a29;
+				font-weight: 100;
+				text-transform: capitalize;
+				margin: 15px 0;*/
+				margin: 25px 0 0 0;
+				font-size: 46px;
+			}
+		}
+	}
+
+
+	.about-features{
+		/*position: relative;
+		top: -35px;
+		text-align: center;
+		padding-bottom: 65px;*/
+		top: -20px;
+
+		.wrapper{
+
+			.big-product{
+				/*display: block;
+				width: 500px;
+				margin: 0 auto;*/
+				width: 75%;
+				margin: 0 auto;
+
+				img{
+					/*width: 100%;
+					height: auto;*/
+				}
+			}
+
+			.txt{
+				/*display: block;
+				max-width: 600px;
+				margin: 30px auto 15px auto;*/
+
+				p{
+					/*font-family: 'Roboto Slab';
+					color: #000;
+					font-size: 15px;*/
+					font-size: 14px;
+
+				}
+			}
+
+			.high-txt{
+				/*display: inline-block;
+				font-family: 'Balbeer';
+				font-size: 34px;
+				color: #f05a29;
+				text-transform: uppercase;
+				line-height: 40px;
+				margin: 85px 0 0 0;*/
+				font-size: 28px;
+				margin: 0 0 0 0;
+				position: relative;
+				top: 60px;
+			}
+
+			.feature{
+				/*text-align: center;
+				margin-top: 30px;*/
+
+				.icon{
+					/*display: inline-block;
+					width: 80px;
+					height: 80px;*/
+
+					img{
+						/*width: 100%;
+						height: auto;*/
+					}
+				}
+
+				p{
+					/*font-family: 'Roboto Slab';
+					font-size: 15px;
+					color: #000;
+					margin: 0;*/
+					font-size: 14px;
+				}
+			}
+		}
+	}
+
+}
 
