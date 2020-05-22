@@ -307,6 +307,10 @@ a:hover{
 	text-align: center;
 	padding-bottom: 60px;
 
+	&.product{
+		padding: 40px 0 55px 0;
+	}
+
 	.wrapper{
 
 		.row{
@@ -788,6 +792,11 @@ a:hover{
 	text-align: center;
 	padding: 50px 0 30px 0;
 	border-bottom: 1px solid #b1b09e;
+
+	&.shop{
+		border-bottom: none;
+		padding: 30px 0 30px 0;
+	}
 
 	.wrapper{
 
